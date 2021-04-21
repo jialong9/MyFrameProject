@@ -2,11 +2,8 @@ package com.vcyber.myframe.ui.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.CountDownTimer;
-import android.os.Handler;
 import android.text.Html;
 import android.text.Spanned;
-import android.widget.FrameLayout;
 
 import com.vcyber.myframe.R;
 import com.vcyber.myframe.base.BaseActivity;
@@ -16,8 +13,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import butterknife.BindView;
 import master.flame.danmaku.controller.DrawHandler;

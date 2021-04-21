@@ -1,6 +1,5 @@
 package com.vcyber.myframe.ui.activity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.widget.GridLayoutManager;
@@ -8,7 +7,6 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.text.Spanned;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.ScaleAnimation;
@@ -27,7 +25,6 @@ import java.util.Random;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import butterknife.internal.Utils;
 
 /**
  * description ：

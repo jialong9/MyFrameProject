@@ -12,14 +12,8 @@ import android.support.annotation.Keep;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import android.view.animation.LinearInterpolator;
 
-import com.google.gson.Gson;
 import com.vcyber.myframe.R;
-import com.vcyber.myframe.bean.LoginBean;
-
-import okhttp3.MediaType;
-import okhttp3.RequestBody;
 
 /**
  * Create by zjl on 2019/10/21

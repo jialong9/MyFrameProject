@@ -1,7 +1,6 @@
 package com.vcyber.myframe.ui.activity;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.widget.ImageView;
 
 import com.vcyber.myframe.R;

@@ -6,9 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
-import android.graphics.Paint;
 import android.graphics.Rect;
-import android.os.Build;
 import android.os.Handler;
 import android.util.DisplayMetrics;
 import android.view.MotionEvent;
@@ -23,10 +21,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.vcyber.myframe.base.BaseApplication;
-import com.vcyber.myframe.utils.log.LogUtil;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;

@@ -1,7 +1,6 @@
 package com.vcyber.myframe.widget;
 
 import android.content.Context;
-import android.graphics.Path;
 import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
