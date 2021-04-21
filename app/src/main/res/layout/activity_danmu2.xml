@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a6000000"
+    android:orientation="vertical">
+
+    <com.vcyber.myframe.widget.easybarrage.BarrageView
+        android:id="@+id/barrageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:allow_repeat="false"
+        app:line_height="20dp"
+        app:max_text_size="14"
+        app:min_text_size="14"
+        app:random_color="false"
+        app:size="1"
+        app:text_bottom_padding="30"
+        app:text_left_padding="90"
+        app:text_right_padding="90" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_my_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="我的话费"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/tv_my_money"
+            android:background="@drawable/shape_money"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:paddingBottom="3dp"
+            android:text="0元"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imv_vouchers"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/tv_my_money"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-15dp"
+            android:layout_toEndOf="@+id/tv_money"
+            android:src="@mipmap/ic_launcher" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/shape_vouchers_bg">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_vouchers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/imv_get"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_animation"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+</LinearLayout>
