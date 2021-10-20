@@ -38,6 +38,14 @@
             android:name=".ui.activity.TestNetWordActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoFitsSystemWindows" />
+        <activity
+            android:name=".ui.activity.TestJsonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoFitsSystemWindows" />
+        <activity
+            android:name=".ui.activity.TestVideoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoFitsSystemWindows" />
 
         <activity
             android:name=".ui.activity.TestPullPushActivity"

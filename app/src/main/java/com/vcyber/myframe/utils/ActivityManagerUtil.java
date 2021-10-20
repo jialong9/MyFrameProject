@@ -19,7 +19,7 @@ public class ActivityManagerUtil {
     private ActivityManagerUtil() {
     }
 
-    /**
+    /**ge
      * 单一实例
      */
     public static ActivityManagerUtil getInstance() {
@@ -118,7 +118,7 @@ public class ActivityManagerUtil {
     }
 
     /**
-     * 结束主Acitivity上面所有的Activity
+     * 结束主Activity上面所有的Activity
      */
     public void killAllTopActivity() {
         Stack<Activity> mActivityStack = ActivityManagerUtil.mActivityStack;

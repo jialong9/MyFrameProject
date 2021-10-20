@@ -75,10 +75,11 @@ public class AppClient {
                                     .newBuilder()
                                     .addHeader("Content-Type", "application/json; charset=UTF-8")
                                     .addHeader("Accept", "application/json")
-                                    .addHeader("id", "")
-                                    .addHeader("access_token", "")
-                                    .addHeader("loginname", "")
-                                    .addHeader("sign", md5("" + "vcyber_@#wesdxt*#@20082018"))
+//                                    .addHeader("id", "")
+//                                    .addHeader("access_token", "")
+//                                    .addHeader("loginname", "")
+//                                    .addHeader("sign", md5("" + "vcyber_@#wesdxt*#@20082018"))
+                                    .addHeader("Cookie","gftoken=MjY1ZmQ2ZmY4YnwxNjMyMzc5NjE4OTd8fDAGBgYGBgY; tt_webid=7002533443553838605; csrftoken=tFKE22sx2bG8VfkJzdnvWbmgWbzf1d95; MONITOR_WEB_ID=6ff14595-462e-4948-9445-c7133f136f10; passport_csrf_token_default=ba46f8ed7551719b071e39b6f4b72587; passport_auth_status=74860ba4688468c6453e78acac19db98%2Cfa842825d30df8f3b5699fa5d6f60fd4; passport_auth_status_ss=74860ba4688468c6453e78acac19db98%2Cfa842825d30df8f3b5699fa5d6f60fd4; sid_guard=265fd6ff8bf9480155ae7e87f9f18143%7C1632379617%7C5184000%7CMon%2C+22-Nov-2021+06%3A46%3A57+GMT; uid_tt=06ba993eddc223426359c9d3dbc260f9; uid_tt_ss=06ba993eddc223426359c9d3dbc260f9; sid_tt=265fd6ff8bf9480155ae7e87f9f18143; sessionid=265fd6ff8bf9480155ae7e87f9f18143; sessionid_ss=265fd6ff8bf9480155ae7e87f9f18143; sid_ucp_v1=1.0.0-KGI3NjZjNWRiYTI1MjU4YjljNzEwN2JjNDkwMjdmNWU5YjMzNGM5ZjYKFwi9neCaloyCBhDhxbCKBhimDDgCQPEHGgJsZiIgMjY1ZmQ2ZmY4YmY5NDgwMTU1YWU3ZTg3ZjlmMTgxNDM; ssid_ucp_v1=1.0.0-KGI3NjZjNWRiYTI1MjU4YjljNzEwN2JjNDkwMjdmNWU5YjMzNGM5ZjYKFwi9neCaloyCBhDhxbCKBhimDDgCQPEHGgJsZiIgMjY1ZmQ2ZmY4YmY5NDgwMTU1YWU3ZTg3ZjlmMTgxNDM; passport_csrf_token=ba46f8ed7551719b071e39b6f4b72587; _tea_utm_cache_1442={%22utm_source%22:%22oceanengine%22}; _tea_utm_cache_1581={%22utm_source%22:%22oceanengine%22}; star_sessionid=1150cd2a90f286b1eb96d894841375ac")
                                     .build();
                             return chain.proceed(request);
                         }

@@ -8,7 +8,7 @@ import android.support.annotation.Nullable;
  * Create by zjl on 2019/5/6
  * ---- mvp底层基类 ----
  */
-public abstract class MvpActivity<P extends BasePresenter> extends BaseActivity {
+public abstract class MvpActivity<P extends BasePresenter<?>> extends BaseActivity {
 
     public P mPresenter;
 

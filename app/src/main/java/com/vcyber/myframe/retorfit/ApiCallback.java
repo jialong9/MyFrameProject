@@ -76,13 +76,13 @@ public abstract class ApiCallback<M extends BaseResultBean> extends DisposableOb
 
 
     @Override
-    public void onNext(M model) {
+    public void onNext(M bean) {
         /*
          * 这次打印是bean类中定义的字段
          * 在HttpLoggingInterceptorM中273行还会有一次打印，打印所有后台返回字段
          */
-        LogUtil.json(new Gson().toJson(model));
-        onSuccess(model);
+        LogUtil.json(new Gson().toJson(bean));
+        onSuccess(bean);
     }
 
     @Override

@@ -45,6 +45,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         ActivityManagerUtil.getActivityStackInfos();
         mContext = this;
 
+
         mNetWordChangeReceiver = new NetWordChangeReceiver();
         IntentFilter filter = new IntentFilter();
         filter.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);

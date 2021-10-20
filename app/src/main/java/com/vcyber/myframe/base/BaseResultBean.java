@@ -9,25 +9,16 @@ import java.io.Serializable;
  * ---- 网络请求解析基类，主要解析最外层数据 ----
  */
 public class BaseResultBean implements Serializable {
-    private int errorCode;
-    private boolean success;
+    private int code;
     private String msg;
 
 
-    public int getErrorCode() {
-        return errorCode;
+    public int getCode() {
+        return code;
     }
 
-    public void setErrorCode(int errorCode) {
-        this.errorCode = errorCode;
-    }
-
-    public boolean getSuccess() {
-        return success;
-    }
-
-    public void setSuccess(boolean success) {
-        this.success = success;
+    public void setCode(int code) {
+        this.code = code;
     }
 
     public String getMsg() {

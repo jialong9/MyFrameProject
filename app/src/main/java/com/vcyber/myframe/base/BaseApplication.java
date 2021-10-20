@@ -25,7 +25,7 @@ public class BaseApplication extends Application {
     @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
-        //分包工具支持5.0以下系统
+        //分包工具支持5.0以下系统m
         MultiDex.install(this);
     }
 

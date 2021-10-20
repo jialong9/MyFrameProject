@@ -33,7 +33,7 @@ public class BasePresenter<V> {
         }
     }
 
-    protected void addDisposable(Observable observable, DisposableObserver disposableObserver) {
+    protected void addDisposable(Observable observable, DisposableObserver<?> disposableObserver) {
         if (mCompositeDisposable == null || mCompositeDisposable.isDisposed()) {
             mCompositeDisposable = new CompositeDisposable();
         }

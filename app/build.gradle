@@ -73,5 +73,5 @@ dependencies {
 
     implementation 'com.github.ctiao:DanmakuFlameMaster:0.9.16'
 
-
+    implementation 'cn.jzvd:jiaozivideoplayer:7.2.0'
 }

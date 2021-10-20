@@ -1,6 +1,7 @@
 package com.vcyber.myframe;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -8,6 +9,9 @@ import com.vcyber.myframe.base.MvpActivity;
 import com.vcyber.myframe.bean.LoginBean;
 import com.vcyber.myframe.mvp.presenter.MainPresenter;
 import com.vcyber.myframe.mvp.view.MainView;
+import com.vcyber.myframe.ui.activity.TestJsonActivity;
+import com.vcyber.myframe.ui.activity.TestNetWordActivity;
+import com.vcyber.myframe.ui.activity.TestVideoActivity;
 import com.vcyber.myframe.widget.LineProgressView;
 import com.vcyber.myframe.widget.LuckPan;
 
@@ -33,8 +37,6 @@ public class MainActivity extends MvpActivity<MainPresenter> implements MainView
     LuckPan luckPan;
 
 
-
-
     @Override
     public int getLayoutId() {
         return R.layout.activity_main;
@@ -57,14 +59,14 @@ public class MainActivity extends MvpActivity<MainPresenter> implements MainView
 
     @OnClick(R.id.tv_test)
     public void setTv_test() {
-//        Intent intent = new Intent(this, TestNetWordActivity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, TestVideoActivity.class);
+        startActivity(intent);
     }
 
     @OnClick(R.id.tv_testPull)
     public void setTv_testPull() {
-//        Intent intent = new Intent(this, DanMu2Activity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, TestJsonActivity.class);
+        startActivity(intent);
     }
 
 
