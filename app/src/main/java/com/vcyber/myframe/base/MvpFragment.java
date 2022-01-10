@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
  * Create by zjl on 2019/5/8
  * ---- mvp底层基类 ----
  */
-public abstract class MvpFragment<P extends BasePresenter> extends BaseFragment {
+public abstract class MvpFragment<P extends BasePresenter<?>> extends BaseFragment {
     public P mPresenter;
 
     @Override

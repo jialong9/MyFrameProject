@@ -12,6 +12,7 @@ import com.vcyber.myframe.mvp.view.MainView;
 import com.vcyber.myframe.ui.activity.TestJsonActivity;
 import com.vcyber.myframe.ui.activity.TestNetWordActivity;
 import com.vcyber.myframe.ui.activity.TestVideoActivity;
+import com.vcyber.myframe.ui.activity.ViewpagerActivity;
 import com.vcyber.myframe.widget.LineProgressView;
 import com.vcyber.myframe.widget.LuckPan;
 
@@ -66,6 +67,12 @@ public class MainActivity extends MvpActivity<MainPresenter> implements MainView
     @OnClick(R.id.tv_testPull)
     public void setTv_testPull() {
         Intent intent = new Intent(this, TestJsonActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.bt_test_fragment)
+    public void setBtTestFragment() {
+        Intent intent = new Intent(this, ViewpagerActivity.class);
         startActivity(intent);
     }
 

@@ -69,6 +69,9 @@
         <activity
             android:name=".ui.activity.DanMu2Activity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ViewpagerActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".wxapi.WXEntryActivity"
@@ -76,7 +79,7 @@
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:taskAffinity="net.sourceforge.simcpux"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
     </application>
 
