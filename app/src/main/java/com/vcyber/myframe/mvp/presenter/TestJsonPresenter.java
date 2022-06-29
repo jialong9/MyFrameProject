@@ -2,9 +2,7 @@ package com.vcyber.myframe.mvp.presenter;
 
 import com.vcyber.myframe.base.BasePresenter;
 import com.vcyber.myframe.bean.XingTuBean;
-import com.vcyber.myframe.mvp.model.MainModel;
 import com.vcyber.myframe.mvp.model.TestJsonModel;
-import com.vcyber.myframe.mvp.view.MainView;
 import com.vcyber.myframe.mvp.view.TestJsonView;
 import com.vcyber.myframe.retorfit.ApiCallback;
 import com.vcyber.myframe.utils.log.LogUtil;

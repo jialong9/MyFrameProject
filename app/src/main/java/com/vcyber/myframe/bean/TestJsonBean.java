@@ -1,9 +1,6 @@
 package com.vcyber.myframe.bean;
 
 import java.io.Serializable;
-import java.util.List;
-
-import retrofit2.http.Body;
 
 /**
  * description ：

@@ -1,37 +1,29 @@
 package com.vcyber.myframe.ui.activity;
 
 import android.os.Bundle;
-import android.widget.VideoView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.vcyber.myframe.R;
-import com.vcyber.myframe.base.BaseActivity;
 import com.vcyber.myframe.base.MvpActivity;
 import com.vcyber.myframe.bean.TestJsonBean;
-import com.vcyber.myframe.bean.TestJsonDataBean;
 import com.vcyber.myframe.bean.TestJsonVcrDataBean;
 import com.vcyber.myframe.bean.XingTuBean;
+import com.vcyber.myframe.databinding.ActivityTestJsonBinding;
 import com.vcyber.myframe.mvp.presenter.TestJsonPresenter;
 import com.vcyber.myframe.mvp.view.TestJsonView;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-
-import retrofit2.http.POST;
 
 /**
  * description ：
  * author : zjl
  * date : 7/27/21
  */
-public class TestJsonActivity extends MvpActivity<TestJsonPresenter> implements TestJsonView {
+public class TestJsonActivity extends MvpActivity<TestJsonPresenter, ActivityTestJsonBinding> implements TestJsonView {
     @Override
     public int getLayoutId() {
         return R.layout.activity_test_json;

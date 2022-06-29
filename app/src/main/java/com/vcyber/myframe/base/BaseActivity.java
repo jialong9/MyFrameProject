@@ -16,12 +16,9 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.vcyber.myframe.broadcastreceiver.NetWordChangeReceiver;
-import com.vcyber.myframe.databinding.ActivityMainBinding;
 import com.vcyber.myframe.utils.ActivityManagerUtil;
 import com.vcyber.myframe.widget.MyCustomToast;
 
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 /**
  * Create by zjl on 2019/5/6
@@ -29,22 +26,17 @@ import butterknife.Unbinder;
  */
 public abstract class BaseActivity extends AppCompatActivity {
 
-    public Unbinder mUnbinder;
+//    public Unbinder mUnbinder;
     public Context mContext;
     private NetWordChangeReceiver mNetWordChangeReceiver;
-    private ActivityMainBinding binding;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(getLayoutId());
-        mUnbinder = ButterKnife.bind(this);
         setNoStatusBar(true);
-        initData(savedInstanceState);
         ActivityManagerUtil.getActivityStackInfos();
         mContext = this;
-
 
         mNetWordChangeReceiver = new NetWordChangeReceiver();
         IntentFilter filter = new IntentFilter();
@@ -87,7 +79,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        mUnbinder.unbind();
+//        mUnbinder.unbind();
         unregisterReceiver(mNetWordChangeReceiver);
     }
 

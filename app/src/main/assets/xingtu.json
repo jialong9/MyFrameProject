@@ -1,0 +1,891 @@
+[
+  {
+    "status": "EXCEPTION",
+    "method": null,
+    "protocolVersion": null,
+    "scheme": null,
+    "host": null,
+    "port": 0,
+    "actualPort": 0,
+    "path": null,
+    "query": null,
+    "tunnel": false,
+    "keptAlive": false,
+    "webSocket": false,
+    "remoteAddress": null,
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42392,
+    "times": {
+      "start": "2021-09-08T15:04:10.356+08:00",
+      "requestBegin": null,
+      "requestComplete": null,
+      "responseBegin": null,
+      "end": "2021-09-08T15:04:10.356+08:00"
+    },
+    "durations": {
+      "total": 0,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": null,
+      "response": null,
+      "latency": null
+    },
+    "speeds": {
+      "overall": 0,
+      "request": null,
+      "response": null
+    },
+    "totalSize": 672,
+    "exception": "Invalid first line in request",
+    "request": {
+      "sizes": {
+        "headers": 0,
+        "body": 0
+      },
+      "mimeType": null,
+      "charset": null,
+      "contentEncoding": null,
+      "header": {
+        "firstLine": null,
+        "headers": []
+      }
+    },
+    "response": {
+      "status": 503,
+      "sizes": {
+        "headers": 0,
+        "body": 672
+      },
+      "mimeType": "text/html",
+      "charset": "ISO-8859-1",
+      "contentEncoding": null,
+      "header": {
+        "firstLine": "HTTP/1.0 503 Error",
+        "headers": [
+          {
+            "name": "Server",
+            "value": "Charles"
+          },
+          {
+            "name": "Cache-Control",
+            "value": "must-revalidate,no-cache,no-store"
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/html;charset=ISO-8859-1"
+          },
+          {
+            "name": "Content-Length",
+            "value": "672"
+          },
+          {
+            "name": "Connection",
+            "value": "close"
+          }
+        ]
+      },
+      "body": {
+        "text": "<html>\n<head>\n    <title>Charles Error Report</title>\n    <style type=\"text/css\">\nbody {\n    font-family: Arial,Helvetica,Sans-serif;\n    font-size: 12px;\n    color: #333333;\n    background-color: #ffffff;\n}\n\nh1 {\n    font-size: 24px;\n    font-weight: bold;\n}\n\nh2 {\n    font-size: 18px;\n    font-weight: bold;\n}\n    </style>\n</head>\n<body>\n\n<h1>Charles Error Report</h1>\n<h2>Failure</h2>\n<p>Invalid first line in request</p>\n<p>The actual exception reported was:</p>\n<pre>\ncom.xk72.proxy.http.HttpFieldsException: Invalid first line in request\n</pre>\n\n<p>\n<i>Charles Proxy, <a href=\"https://www.charlesproxy.com/\">https://www.charlesproxy.com/</a></i>\n</p>\n</body>\n</html>",
+        "charset": "ISO-8859-1"
+      }
+    }
+  },
+  {
+    "status": "EXCEPTION",
+    "method": null,
+    "protocolVersion": null,
+    "scheme": null,
+    "host": null,
+    "port": 0,
+    "actualPort": 0,
+    "path": null,
+    "query": null,
+    "tunnel": false,
+    "keptAlive": false,
+    "webSocket": false,
+    "remoteAddress": null,
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42410,
+    "times": {
+      "start": "2021-09-08T15:04:10.938+08:00",
+      "requestBegin": null,
+      "requestComplete": null,
+      "responseBegin": null,
+      "end": "2021-09-08T15:04:10.939+08:00"
+    },
+    "durations": {
+      "total": 1,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": null,
+      "response": null,
+      "latency": null
+    },
+    "speeds": {
+      "overall": 672000,
+      "request": null,
+      "response": null
+    },
+    "totalSize": 672,
+    "exception": "Invalid first line in request",
+    "request": {
+      "sizes": {
+        "headers": 0,
+        "body": 0
+      },
+      "mimeType": null,
+      "charset": null,
+      "contentEncoding": null,
+      "header": {
+        "firstLine": null,
+        "headers": []
+      }
+    },
+    "response": {
+      "status": 503,
+      "sizes": {
+        "headers": 0,
+        "body": 672
+      },
+      "mimeType": "text/html",
+      "charset": "ISO-8859-1",
+      "contentEncoding": null,
+      "header": {
+        "firstLine": "HTTP/1.0 503 Error",
+        "headers": [
+          {
+            "name": "Server",
+            "value": "Charles"
+          },
+          {
+            "name": "Cache-Control",
+            "value": "must-revalidate,no-cache,no-store"
+          },
+          {
+            "name": "Content-Type",
+            "value": "text/html;charset=ISO-8859-1"
+          },
+          {
+            "name": "Content-Length",
+            "value": "672"
+          },
+          {
+            "name": "Connection",
+            "value": "close"
+          }
+        ]
+      },
+      "body": {
+        "text": "<html>\n<head>\n    <title>Charles Error Report</title>\n    <style type=\"text/css\">\nbody {\n    font-family: Arial,Helvetica,Sans-serif;\n    font-size: 12px;\n    color: #333333;\n    background-color: #ffffff;\n}\n\nh1 {\n    font-size: 24px;\n    font-weight: bold;\n}\n\nh2 {\n    font-size: 18px;\n    font-weight: bold;\n}\n    </style>\n</head>\n<body>\n\n<h1>Charles Error Report</h1>\n<h2>Failure</h2>\n<p>Invalid first line in request</p>\n<p>The actual exception reported was:</p>\n<pre>\ncom.xk72.proxy.http.HttpFieldsException: Invalid first line in request\n</pre>\n\n<p>\n<i>Charles Proxy, <a href=\"https://www.charlesproxy.com/\">https://www.charlesproxy.com/</a></i>\n</p>\n</body>\n</html>",
+        "charset": "ISO-8859-1"
+      }
+    }
+  },
+  {
+    "status": "COMPLETE",
+    "method": "POST",
+    "protocolVersion": "HTTP/1.1",
+    "scheme": "http",
+    "host": "vcr.huixuanjiasu.com",
+    "actualPort": 80,
+    "path": "/game/get_question",
+    "query": "version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084968&device_serial=unknown&nonce_str=bd28181f-bd58-42ef-8a02-35d84a009ca4&box_pkg_name=com.guess.video&sign=33yCWZoF_AszIqqTBbd0cw&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=5498b1f3ed0846debf2d295ff14ff44f&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi",
+    "tunnel": false,
+    "keptAlive": true,
+    "webSocket": false,
+    "remoteAddress": "vcr.huixuanjiasu.com/39.96.2.90",
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42400,
+    "times": {
+      "start": "2021-09-08T15:04:26.862+08:00",
+      "requestBegin": "2021-09-08T15:04:26.862+08:00",
+      "requestComplete": "2021-09-08T15:04:26.862+08:00",
+      "responseBegin": "2021-09-08T15:04:26.952+08:00",
+      "end": "2021-09-08T15:04:26.952+08:00"
+    },
+    "durations": {
+      "total": 90,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": 0,
+      "response": 0,
+      "latency": 90
+    },
+    "speeds": {
+      "overall": 40922,
+      "request": 0,
+      "response": 0
+    },
+    "totalSize": 3683,
+    "request": {
+      "sizes": {
+        "headers": 1064,
+        "body": 24
+      },
+      "mimeType": "application/x-www-form-urlencoded",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "POST /game/get_question?version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084968&device_serial=unknown&nonce_str=bd28181f-bd58-42ef-8a02-35d84a009ca4&box_pkg_name=com.guess.video&sign=33yCWZoF_AszIqqTBbd0cw&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=5498b1f3ed0846debf2d295ff14ff44f&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi HTTP/1.1",
+        "headers": [
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+          },
+          {
+            "name": "Accept-Charset",
+            "value": "UTF-8"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Cookie",
+            "value": "yid=306415552161_5733786105;device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593;madr=MDIwMDAwMDAwMDAw;aid=MjdiNDRhNzYyY2U4YTMzNw==;ii=;device_serial=unknown;wmr=QzIyRTI1NzhBMDdG"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "name": "Content-Length",
+            "value": "24"
+          },
+          {
+            "name": "Host",
+            "value": "vcr.huixuanjiasu.com"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "is_relive=0&question_id=",
+        "charset": null,
+        "decoded": true
+      }
+    },
+    "response": {
+      "status": 200,
+      "sizes": {
+        "headers": 241,
+        "body": 2354
+      },
+      "mimeType": "application/json",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "HTTP/1.1 200 OK",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 08 Sep 2021 07:04:28 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Transfer-Encoding",
+            "value": "chunked"
+          },
+          {
+            "name": "Vary",
+            "value": "Accept-Encoding"
+          },
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "{\"code\":1,\"data\":{\"all_stars\":0,\"can_luck\":0,\"can_luck_level\":5,\"continuous_win\":0,\"day_icon\":{\"bottom_desc\":\"0/100\",\"icon_status\":0},\"force_scroll\":{},\"game_level\":0,\"if_hard\":false,\"music_id\":\"25224961\",\"next_extract\":5,\"next_luck_level\":5,\"novice_extract\":0,\"novice_extract_num\":5,\"npc_double_time\":0,\"question_id\":1382829308,\"scroll_msg_list\":[{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/kbkKDCrTQkpz3rsgFK5AVetqDZvAYlMo5QK2MW4mcCXdiccpFdtx2hm5WfBQ5hyBbwesn9bwCicKiamRP3KpnwnPA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u85cf***\\u85cf</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/vf4DEp4P493ZPuOicVRD9dlVxW8CvibKJX8HkLlyb6PWwAS0ibGd92qZXxJEYUDj71Plpu1Uah6ibqzUCqBpZJpFng/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6d77***\\u7a7a</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJmSEccyuUB9OG6txTibnvl2iawAHpMsiaQXvt8gB3YgU3fzTibAD5gXe60ich4oPCb7EMCtibpiaOnKGDgw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4f1f***</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/L1sGCkBiaF8ddm8MEhQibmcGJ3Mia4pFqDRbyyXoOzRBPTUmIHK1QKjomBkz6rhVbYQd7DxTy8ou6fyianv8d5NAtw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6708***\\u5f2f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eoF8yvAKQSUAsTyCgDqYrcjeAeEDOcmcPy7mFZkx6qaGiaRWnVjaUod0ET22l8KI9tpancmc0xibxyw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u57ce***\\u3002</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DUMm6HEjlUljAzFT6nR6RiaibibsHbXVdrEz0RbAnB8v8IcCGW6h0VuXcpE2NoMm71eC0bzBicn1g6sot4ibSGPAXoQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u706b***\\u51f0</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/BeGIP6S39alfdts1g9vNqR5AID5LEbOdZr0picSzOZkv7VsNKZq8tx5s3ZxdW8ELhlic1S9aJ4mztv3MKs39h44g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6696***i</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6708***\\u8239</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/dZdqTEESGtKvrzKBIwcKDhCicyFr1vOIuV2lQXpUIWr9uubTHE3dwibgq3QSJAXRS69cj8193ibXicAzQG8QxWXVMw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5218***\\u53f6</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/QoPAicbDv67TxSkvCgIv6x8l5QDDC3VSop2pYSU9FE9AxfibldL7CCI3e7StBKsskDibgA2YobatZMnhwViaXRialHQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5c0f***\\u6797</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/BVs9dSN2WV8ncYLj9w3gBma3KbnqdpYmwfkcWrqtEnObibEcc7AvZWV5AibKmHnka7b6ibRNmX079w9HKCiaCIt9xg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u67ab***\\ud83c\\udf41</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/v8j5OXWabAegpnZrEZp1c2jg60vHlSJUpJ07CWJeJic5OCx59FeJMWczzm76ZSJJd4F8B7h5PR4axbVbuRZqncA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u672a***\\u81f3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/B6ODKKRH86D2AJiaZicvUqibAEBcYF3OQqTmErGhlk6r1iciboWPmdJ5f2auSajVic9p7gvqkQbxePvVsFxE5uVCoUNw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\ua9c1***\\ua9c2</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/rtT6yIib7ju1pdcrepE7taQ7DUSaLCC2o1W65fS8OqMThstJicibTVQaSqqCOiaPgbHxzTyAMqWFs2fyRZ6RWlJm2w/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5fc3***\\u513f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/bT3ttJaYe9Ha6L9Oj3ytMlzgzg60DFpfkgia5L2zqnPGfKOaf66tEKb5H3L34DjTmuJxMic1ebh7Jt5ia1JrxBv8g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5e73***\\u5bb6</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/T8Ju4icGX9sRHBPCLDwfP3rzzq9XxFCk9VlSQwXXPjwXb30z4ibFbpfn1hsszeE7fia8pdM5UU8b4XHYy14fS8wHA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7231***\\u7231</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI1kWNqhn4bEEGNXg6YLFxY2blLia8FNPiagbRKLKT0hYAl8EVickgpCOuARafS8hIzAF0XYbm3hK9sQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5c0f***\\u70b9</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/rUqvHOCgp8hGpNa8eb0Uv3eia7tnWR1Av8c5Q02aXE0ibYzvevCm9r7xuBicGmZ1Q6Oaj2wPEtnqTZy8O6WV1DdOw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4e01***\\u4e01</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKC0G4j1aKCKXGFibP7iacWicvlBNkHZUy1DibpTdw6ZEW7y8gNyjNMyYMRgznyNWoS8GPdT2zjkEA1ibg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u753b***\\u7f18</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"https://thirdwx.qlogo.cn/mmopen/vi_32/NTzWSNnFhY08WFagQIqgFnIXUV56qBXf0NTRbneK6mbEXR5ol29MNsFNbSKMI31A0nHpLtVhbWvqj0CHgzRTRQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4f55***\\u6a31</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"}],\"show_market_guide\":0,\"show_novice_desc\":\"\",\"show_novice_extract\":0,\"show_scroll_msg\":true,\"subject_info\":{\"_id\":\"25224961\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"96551464\",\"answer_name\":\"\\u7a46\\u91cc\\u5c3c\\u5965\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/8476d86d6a77d49bb7aaafac1d63e8e7.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u62ff\\u91d1\\u7b8d\\u68d2\\u7684\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u5b59\\u609f\\u7a7a\"},\"time_limit\":0,\"total_game_count\":1},\"encrypt\":false,\"message\":\"\\u6210\\u529f\"}\n",
+        "charset": null,
+        "decoded": true
+      }
+    }
+  },
+  {
+    "status": "COMPLETE",
+    "method": "POST",
+    "protocolVersion": "HTTP/1.1",
+    "scheme": "http",
+    "host": "vcr.huixuanjiasu.com",
+    "actualPort": 80,
+    "path": "/game/get_question",
+    "query": "version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084982&device_serial=unknown&nonce_str=5f19b884-5a0b-4cca-8a68-f4a8ef86bd05&box_pkg_name=com.guess.video&sign=wBas0ed2IDN19b5dNeC6EQ&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=5f4232ae189a4c3a9ec6e7987180d2f7&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi",
+    "tunnel": false,
+    "keptAlive": true,
+    "webSocket": false,
+    "remoteAddress": "vcr.huixuanjiasu.com/39.96.2.90",
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42400,
+    "times": {
+      "start": "2021-09-08T15:04:40.050+08:00",
+      "requestBegin": "2021-09-08T15:04:40.050+08:00",
+      "requestComplete": "2021-09-08T15:04:40.050+08:00",
+      "responseBegin": "2021-09-08T15:04:40.209+08:00",
+      "end": "2021-09-08T15:04:40.209+08:00"
+    },
+    "durations": {
+      "total": 159,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": 0,
+      "response": 0,
+      "latency": 159
+    },
+    "speeds": {
+      "overall": 24119,
+      "request": 0,
+      "response": 0
+    },
+    "totalSize": 3835,
+    "request": {
+      "sizes": {
+        "headers": 1064,
+        "body": 25
+      },
+      "mimeType": "application/x-www-form-urlencoded",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "POST /game/get_question?version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084982&device_serial=unknown&nonce_str=5f19b884-5a0b-4cca-8a68-f4a8ef86bd05&box_pkg_name=com.guess.video&sign=wBas0ed2IDN19b5dNeC6EQ&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=5f4232ae189a4c3a9ec6e7987180d2f7&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi HTTP/1.1",
+        "headers": [
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+          },
+          {
+            "name": "Accept-Charset",
+            "value": "UTF-8"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Cookie",
+            "value": "yid=306415552161_5733786105;device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593;madr=MDIwMDAwMDAwMDAw;aid=MjdiNDRhNzYyY2U4YTMzNw==;ii=;device_serial=unknown;wmr=QzIyRTI1NzhBMDdG"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "name": "Content-Length",
+            "value": "25"
+          },
+          {
+            "name": "Host",
+            "value": "vcr.huixuanjiasu.com"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "is_relive=0&question_id=0",
+        "charset": null,
+        "decoded": true
+      }
+    },
+    "response": {
+      "status": 200,
+      "sizes": {
+        "headers": 241,
+        "body": 2505
+      },
+      "mimeType": "application/json",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "HTTP/1.1 200 OK",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 08 Sep 2021 07:04:41 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Transfer-Encoding",
+            "value": "chunked"
+          },
+          {
+            "name": "Vary",
+            "value": "Accept-Encoding"
+          },
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "{\"code\":1,\"data\":{\"all_stars\":0,\"can_luck\":0,\"can_luck_level\":5,\"continuous_win\":1,\"day_icon\":{\"bottom_desc\":\"1/100\",\"icon_status\":0},\"force_scroll\":{},\"game_level\":1,\"if_hard\":false,\"music_id\":\"109553781\",\"next_extract\":4,\"next_luck_level\":5,\"next_subject_info\":{\"_id\":\"250910541\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"856185570\",\"answer_name\":\"\\u7f8e\\u5c11\\u5973\\u6218\\u58eb\"},{\"answer_id\":\"524190685\",\"answer_name\":\"\\u4e8e\\u6726\\u80e7\"},{\"answer_id\":\"837923830\",\"answer_name\":\"\\u970d\\u53bb\\u75c5\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/8ee7d017b678863db40880c2fd9a7973.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u4eba\\u7269\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u5468\\u661f\\u9a70\"},\"novice_extract\":0,\"novice_extract_num\":5,\"npc_double_time\":0,\"question_id\":1382829634,\"scroll_msg_list\":[{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DOrZUrLjuJAR0ibyLvPw1UzaVw1Rxqric5BlpLAbkyV96zOzecicgEiaxjNmF17zicnibFfrrictoPLKAlCszultw9Ynw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8d60***\\ud83d\\udc90</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/TVUCPckIamBGXoyfnGuibnOhdWv7SOSrqlDsApMloqZW0l5YQwVkWYjFN1durxAQiaAzZY8IcYpWmiaGPAnMuib0Jg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5fae***\\u6696</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJqKGSuJLbD6kEHok15iaHax7yiaEhCURHjxdibr1UPKDdpvdv2ykHra4ReOQicvswtSkiaf3iaGCYiaQq7A/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u963f***\\u6885</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/7sXYodywSScveE0I4mHoSIy5ORiaXWj2QZQ84H5mN6iaD9n6fa4YhJg4bk5fWGXZkgHHIMIgX3QFAMsZrAnKdXLw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u554a***\\u98de</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/8qV22vZe0YJadzDiaoWsuCxwnqmmwU43UA6Z9RCQsJmibgl4AX1MRe9o8svyNBggzicuCEQ6iadAxFia1rPqNQ2VFtQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u9759***\\u97f3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/uebqNMfFGGuhE3vrkyaKtGv6Xh87oU34TZr5FOZkiaXfSlaQEEnLGL7QibvQjrLxvAs167EXEaYeibwjicW3UanLFw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u9648***\\u9753</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/iaLB8lXibOKQ44hRHIwaicrENUbflllbnhJJkfLmKk6mLrWmmterZOoZ1P3mMopXKUZic4Bfhw4ex2TNS3yE9fzIMw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8317***\\ud83c\\udf47</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6b64***\\u7565</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJFXXO0F0LCD1Wt87fuI5IlfmHWp5h2dhZ3XL8Eo9Oh59WicpaXYqIVh7ISDo9lhqnT5iaM9VicorSjw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7b80***\\u5355</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Wo6BMoLTHHXficPu2BDcya23VibNiaALV9ichjgsocPuRpI1TAuGibfuDLp3OSxAoqJJY4zXoNLib4ID9W1YAOrGsibGw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u9093***\\u5988</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJrKr2y85eicZdS3yIc7AaOOyao7AGcbZeYHQUkiappNTdrtWZ5VNm8aXiauJT3Hbop5NQEUQSfjka2Q/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6b22***\\u6b22</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/BfLozqlBiaqVib8ytOpaIr1kg5plwfEz8SLKvywVx8McSm2juddP4ibuMcYeqv4nRxDvLmiaa0PrQiabuE2n9YricO3g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\ud83c\\udf37***\\ud83c\\udf3a</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/RzyZxJ2sb9pHA0sXdvMCufMfjS4EINdQmchoHU4bS3tUqHDfxgib82icRI0rLNaDeU7btZvUUesSerSTl1hAlqbQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5b9d***\\u6770</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIcxz0quUK7Q0RhZ2NgYX32VKKiaLw7iaNbS1dPLuNIUky89lYiaicW0SMgEdo4CKf7Z61Eu1mmAq5KuA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5f00***\\u5fc3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/EqrB6PBASPzQIhYelrI422o121c5icEy86PwiaETW3vnuZgiaBJ4qPwTyYBFVgDnfyPrFibIVMsI9da2sUjNuWnZzg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6ca1***\\u724c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/sYCWTzxod7j55DcJ0CKFAwuFXuJJBGI9DFibAdE1Bc6iaRO5muU3icbXZc5v7c99DjibqEcib0dCQxiawbP1RO0HP5gg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7855***\\u5e05</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DNLDwdz2uGGXJwhlAf3b765vCgc7L7RL7gceYG3C3XB8dhA7dnWfpjMlZXic1Tr46o0a6PkRqCia2Mzib02zmJLAw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u65e0***\\u671f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Kd3t5FZC0WUBR4oh0mI7f0QibcpRF4tVIR5CJJOnoG5ESxhrnqmpkZqicOCEM60pnOJicqVzZeRwwdLFmffLQI7dQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u59dc***\\u59dc</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/9sgEUxsIRjjKLeZ9PMgIsEjJ4A5onia7LTavia2iavicEV899dTvNJqAxfJ3Iic9j6fVfn3LYq5hUIadJfibTXQDgL5g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u68a6***\\u4f7f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/7gHWDI8TEn33v2ibHQgwrzIkgOflYmeicCt4SzBhtBk0R7f9AnsvoNK2Eotd5eswyGwfSMptN3aMmCRHy3uFcTfw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5b64***\\u5b64</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"}],\"show_market_guide\":0,\"show_novice_desc\":\"\",\"show_novice_extract\":0,\"show_scroll_msg\":true,\"subject_info\":{\"_id\":\"109553781\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"535483103\",\"answer_name\":\"\\u585e\\u5c14\\u6bd4\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/773105cb51f78c433193090981d3479a.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u513f\\u5b50\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u5927\\u5934\\u513f\\u5b50\"},\"time_limit\":0,\"total_game_count\":2},\"encrypt\":false,\"message\":\"\\u6210\\u529f\"}\n",
+        "charset": null,
+        "decoded": true
+      }
+    }
+  },
+  {
+    "status": "COMPLETE",
+    "method": "POST",
+    "protocolVersion": "HTTP/1.1",
+    "scheme": "http",
+    "host": "vcr.huixuanjiasu.com",
+    "actualPort": 80,
+    "path": "/game/get_question",
+    "query": "version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084988&device_serial=unknown&nonce_str=fba79223-6392-419f-9177-411b04ef3a17&box_pkg_name=com.guess.video&sign=hophvibCdg3sMLRwUostbg&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=ea3eca14da044f52958f97d7cf93539b&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi",
+    "tunnel": false,
+    "keptAlive": true,
+    "webSocket": false,
+    "remoteAddress": "vcr.huixuanjiasu.com/39.96.2.90",
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42400,
+    "times": {
+      "start": "2021-09-08T15:04:46.121+08:00",
+      "requestBegin": "2021-09-08T15:04:46.121+08:00",
+      "requestComplete": "2021-09-08T15:04:46.121+08:00",
+      "responseBegin": "2021-09-08T15:04:46.311+08:00",
+      "end": "2021-09-08T15:04:46.311+08:00"
+    },
+    "durations": {
+      "total": 190,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": 0,
+      "response": 0,
+      "latency": 190
+    },
+    "speeds": {
+      "overall": 20078,
+      "request": 0,
+      "response": 0
+    },
+    "totalSize": 3815,
+    "request": {
+      "sizes": {
+        "headers": 1064,
+        "body": 25
+      },
+      "mimeType": "application/x-www-form-urlencoded",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "POST /game/get_question?version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084988&device_serial=unknown&nonce_str=fba79223-6392-419f-9177-411b04ef3a17&box_pkg_name=com.guess.video&sign=hophvibCdg3sMLRwUostbg&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=ea3eca14da044f52958f97d7cf93539b&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi HTTP/1.1",
+        "headers": [
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+          },
+          {
+            "name": "Accept-Charset",
+            "value": "UTF-8"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Cookie",
+            "value": "yid=306415552161_5733786105;device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593;madr=MDIwMDAwMDAwMDAw;aid=MjdiNDRhNzYyY2U4YTMzNw==;ii=;device_serial=unknown;wmr=QzIyRTI1NzhBMDdG"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "name": "Content-Length",
+            "value": "25"
+          },
+          {
+            "name": "Host",
+            "value": "vcr.huixuanjiasu.com"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "is_relive=0&question_id=0",
+        "charset": null,
+        "decoded": true
+      }
+    },
+    "response": {
+      "status": 200,
+      "sizes": {
+        "headers": 241,
+        "body": 2485
+      },
+      "mimeType": "application/json",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "HTTP/1.1 200 OK",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 08 Sep 2021 07:04:48 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Transfer-Encoding",
+            "value": "chunked"
+          },
+          {
+            "name": "Vary",
+            "value": "Accept-Encoding"
+          },
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "{\"code\":1,\"data\":{\"all_stars\":0,\"can_luck\":0,\"can_luck_level\":5,\"continuous_win\":2,\"day_icon\":{\"bottom_desc\":\"2/100\",\"icon_status\":0},\"force_scroll\":{},\"game_level\":2,\"if_hard\":false,\"music_id\":\"250910541\",\"next_extract\":3,\"next_luck_level\":5,\"next_subject_info\":{\"_id\":\"183613481\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"833110360\",\"answer_name\":\"\\u5c0f\\u7f57\\u4f2f\\u7279\\u5510\\u5c3c\"},{\"answer_id\":\"989396446\",\"answer_name\":\"\\u9f9a\\u5b87\"},{\"answer_id\":\"49188511\",\"answer_name\":\"\\u8d1d\\u7d22\\u65af\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/fdf2867ab2a878dc85d17b24a02989f2.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u5c0f\\u7f8a\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u61d2\\u7f8a\\u7f8a\"},\"novice_extract\":0,\"novice_extract_num\":5,\"npc_double_time\":0,\"question_id\":1382829808,\"scroll_msg_list\":[{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/LXg8pMbjXSby0KibnqyP2VIAsnJVNPul2py5pswiaqiaFPE7tSgg6FeqAiaUmNiazsPCsaPeKR7KeZBzFyTZsxWDunQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7231***\\u8d1d</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/PiajxSqBRaELq0icfdsBjscUGkD07oUpHeD6pscrz8mqt5aMZdyOqBH80FwmIm1PRiaSg1w8wy3iaUOrSPD6hoxaDQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8d75***\\u8d75</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/RRyBNDRiaQ1r8aQBNkWnEHnoHegj87McWgNibCD7LqlkyAwdWCYlenY2OprbzEUWn7yajRHX4kMMPEPWS8d7LfmA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u674e***\\u7434</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/L9VVrMFqrzfWv2VDBKwph8BDibeemS6icia1mWj4Czfco3zcMTK6pKWnzjJcthiakT74qShwPo8fR5SJibbMK4f6MqA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6211***\\u5f90</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKnYb1EibNM1tBLBb94hf3Uqhbq59I31FZZdXTiaE6iaTp1b7lyUesWAazQCqoMCuar75LeJicxf01bbQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5201***\\u6c11</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/yCuJwOcgFFGtIp69KpOLxVmAOPYpK453ZNicwrGRwpqEe3YWtlHW34L6Ejia4DZrFgkiaCx82hIZJLOErPOoAugRg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u97f5***\\u6cab</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/QGEEfDd06mHG4J6ulqSibadkKfyDqAkDpBTXuawGd9NKEBUlXzfrHrczGBRyYlIG2klr19MVt3yttcBTYGM09Jw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u62b1***\\u6715</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/iararHJSAgRJe24TeXWemEhWKANB21b7PYicEibfG1fFy0AgFIRORd7CcnCufdI02dW1CEbBMNGeRxAftVnoMZMPw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8861***\\u5927</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/0jURB05XfQ1qYSxOyqEicmSzaawLicJhkkTj6zFzKngGZ81lk8wZ2bIFTqTIlV2dh9Cq6WJmmrrZsdOsPEnnrU2g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7231***\\u58f0</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/dC8pAAYicQXZH3iaVfyrmkpBgKNINDBpKnGwZtdIlDoBR3rqAlyGCbISQMTzsT0hOtlp8dVCg6Mx4ynEzo00IAxg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7409***4</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/nqbWcABvjF8BQBPdaQoo6pQ4KRfibHf4kyvcONxKcbKF5JWc04pmKkYwCSzD3SMlqnk3XTawxR3icMaS72icQbtjw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u94b1***\\u7f8e</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/yaQDezhicPCSDFnR7RHGLnN1MDx2RELNonMdbb2jC917a0Uv64icI02wMJXp32p86NaFk4xLiaZlvPmEjTCemNHSw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4f73***\\u610f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DW2jwxFKKBcm4ico5BKzUUELnSzRlJYGUVVbHyuh5FvrfKoKQSiafLQFgp8Z1bXfKOAaOpDreicZerzqM9LvQMiaDg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u519c***\\u60ac</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7cd6***\\u679c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/GSNVktRY5t750nChibNlWt0vX1RnPuvJtKMIhAqnt6tP1LZ7h7BbHVtVq7odaMpACaCGyia1br5z9FsdlotEVqpQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u871a***\\u871a</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKC0G4j1aKCKXGFibP7iacWicvlBNkHZUy1DibpTdw6ZEW7y8gNyjNMyYMRgznyNWoS8GPdT2zjkEA1ibg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u753b***\\u7f18</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/ZVzGNz29WFNzz4KFD4ibvIzbTYczwP8ypBN582405zRsCq8HG4Deqnv6xZmqTVBxEPxfR2q8KKic6JKOKd0p9esA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5201***4</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/BFZsOGGch26lGFR8iaPtib2h1HqaoqLiclUdNXBu33MPsIM7fVYpLjQ63W9ZMkdvGYnIXkXia6IxUwhobwtIvfqdow/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6211***\\u5bb6</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/CzEn8TOffWd8ibZSpt1eTt5ORZYAXhtYBTTYI6GqibT5cKG1jYuPJgOQsicaHwWj6qF9Ol2Xj8Y6tboFWHG8AticGQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>w***n</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/VSiaYsWgPDwKS0cz1ejxyvumEm398ADcodVHGzgjkFpGeddrZY4aA6U632rMQG1750wnGBRZOsHVjWfhpUkgr0Q/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u773c***\\u10e6</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"}],\"show_market_guide\":0,\"show_novice_desc\":\"\",\"show_novice_extract\":0,\"show_scroll_msg\":true,\"subject_info\":{\"_id\":\"250910541\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"856185570\",\"answer_name\":\"\\u7f8e\\u5c11\\u5973\\u6218\\u58eb\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/8ee7d017b678863db40880c2fd9a7973.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u4eba\\u7269\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u5468\\u661f\\u9a70\"},\"time_limit\":0,\"total_game_count\":3},\"encrypt\":false,\"message\":\"\\u6210\\u529f\"}\n",
+        "charset": null,
+        "decoded": true
+      }
+    }
+  },
+  {
+    "status": "COMPLETE",
+    "method": "POST",
+    "protocolVersion": "HTTP/1.1",
+    "scheme": "http",
+    "host": "vcr.huixuanjiasu.com",
+    "actualPort": 80,
+    "path": "/game/get_question",
+    "query": "version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084992&device_serial=unknown&nonce_str=c5d43e10-47c6-4f6d-8149-a3381862d6ea&box_pkg_name=com.guess.video&sign=fi4TfjI1B8xxUvpzB4DjrQ&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=75b9ac5d0ea1457c97076b09ddf76786&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi",
+    "tunnel": false,
+    "keptAlive": true,
+    "webSocket": false,
+    "remoteAddress": "vcr.huixuanjiasu.com/39.96.2.90",
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42400,
+    "times": {
+      "start": "2021-09-08T15:04:49.991+08:00",
+      "requestBegin": "2021-09-08T15:04:49.991+08:00",
+      "requestComplete": "2021-09-08T15:04:49.991+08:00",
+      "responseBegin": "2021-09-08T15:04:50.091+08:00",
+      "end": "2021-09-08T15:04:50.091+08:00"
+    },
+    "durations": {
+      "total": 100,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": 0,
+      "response": 0,
+      "latency": 100
+    },
+    "speeds": {
+      "overall": 38660,
+      "request": 0,
+      "response": 0
+    },
+    "totalSize": 3866,
+    "request": {
+      "sizes": {
+        "headers": 1064,
+        "body": 25
+      },
+      "mimeType": "application/x-www-form-urlencoded",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "POST /game/get_question?version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084992&device_serial=unknown&nonce_str=c5d43e10-47c6-4f6d-8149-a3381862d6ea&box_pkg_name=com.guess.video&sign=fi4TfjI1B8xxUvpzB4DjrQ&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=75b9ac5d0ea1457c97076b09ddf76786&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi HTTP/1.1",
+        "headers": [
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+          },
+          {
+            "name": "Accept-Charset",
+            "value": "UTF-8"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Cookie",
+            "value": "yid=306415552161_5733786105;device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593;madr=MDIwMDAwMDAwMDAw;aid=MjdiNDRhNzYyY2U4YTMzNw==;ii=;device_serial=unknown;wmr=QzIyRTI1NzhBMDdG"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "name": "Content-Length",
+            "value": "25"
+          },
+          {
+            "name": "Host",
+            "value": "vcr.huixuanjiasu.com"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "is_relive=0&question_id=0",
+        "charset": null,
+        "decoded": true
+      }
+    },
+    "response": {
+      "status": 200,
+      "sizes": {
+        "headers": 241,
+        "body": 2536
+      },
+      "mimeType": "application/json",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "HTTP/1.1 200 OK",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 08 Sep 2021 07:04:51 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Transfer-Encoding",
+            "value": "chunked"
+          },
+          {
+            "name": "Vary",
+            "value": "Accept-Encoding"
+          },
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "{\"code\":1,\"data\":{\"all_stars\":0,\"can_luck\":0,\"can_luck_level\":5,\"continuous_win\":3,\"day_icon\":{\"bottom_desc\":\"3/100\",\"icon_status\":0},\"force_scroll\":{},\"game_level\":3,\"if_hard\":false,\"music_id\":\"183613481\",\"next_extract\":2,\"next_luck_level\":5,\"next_subject_info\":{\"_id\":\"30042661\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"64292895\",\"answer_name\":\"\\u65bd\\u74e6\\u8f9b\\u683c\"},{\"answer_id\":\"24476099\",\"answer_name\":\"\\u674e\\u51c6\\u57fa\"},{\"answer_id\":\"84366527\",\"answer_name\":\"\\u767d\\u5ca9\\u677e\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/9421d5ca525fbe8b7a6188b21a467daf.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u5bf9\\u94b1\\u6ca1\\u5174\\u8da3\\u7684\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u9a6c\\u4e91\"},\"novice_extract\":0,\"novice_extract_num\":5,\"npc_double_time\":0,\"question_id\":1382829919,\"scroll_msg_list\":[{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eodaVEtDgIRNqqFoohwXNIO4XjiapSDrYkZXdc8xzC2yooInT6v6dK33yjzb93QKcdD8O861ngsPNw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6211***\\u6709</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/oPT3au8PUR2FagTgM3eF7FxxqaGztR4kJXsLuEE3p9lBqOwJbGUfmqNicZViaWaJlw2QwXKJB6QS2IuMTiaVKBmRg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u529f***\\u5b50</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/PiajxSqBRaEIn5wiaLHr6MqXZlRLduukggVbAva4X4K3vvEkoLpoFYgpmlicmibpQjHB8SrHM21hbJpYdC0ibMbVFpw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u65e0***\\u5fc3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/6nYTj6lmKbBtASGzq3ThacCpa9a5Ak3sW9MHRsbUWSDw9YuVy3HCShm9Y12eUOxdFqclIluo3LLu4rgs1PLgwA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u67e0***\\u840c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/PUoAnic4TibCARGSWRM8x64gKP0lRlsQtgNfjyThGKibXHd9sgtBEz1Kkegu84I1iaaqjfykgsH6EGTz8a4S4BuYKQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7433***\\u7433</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJmSEccyuUB9OG6txTibnvl2iawAHpMsiaQXvt8gB3YgU3fzTibAD5gXe60ich4oPCb7EMCtibpiaOnKGDgw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4f1f***</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKnYb1EibNM1tBLBb94hf3Uqhbq59I31FZZdXTiaE6iaTp1b7lyUesWAazQCqoMCuar75LeJicxf01bbQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5201***\\u6c11</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIyAxNXiae4zYbOxjthzesNUkta7n9gUCbibbfbztJF6SCTPRqCIkueh4qQzBEiafJIoPwKy6GOqpPDw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u98d8***\\u96ea</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83epwq2hyQ9nEEnQKUrPQuzkhQObWY9u02OTo3nTwGicwWUQuHNs7180aBR8WN7UHbfEuPgYpbgFwbBw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6545***\\ud83d\\udc6b</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Ya7Zl2lVYdzUX8tcgv5Dicib9K8ef6RCUFztS4s1yRNxNRFJmZr43qDRjJpI0ib5oRjoIKnRaS4vzNdLL5KNJG5Uw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u6069***\\u9171</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/sbKXmNoicWgicWnxRrZTyicqhtLdR0R0cd5XsoXXs4zJicNTtBvOK3r4cmusAmibHM5nWbqqBVT4GM2Nic62POzoV83g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5c0f***\\u7166</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/UaND01iaibMRFORjQjTopteHLu02IOYdhiaqq2by3WyUQT88EazFZkmZkyPzgZKEpvkhsKMGG3byc1Dic2m4ibUhgtQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u90b9***\\u9896</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqJwjNEjwb7tGWPdFOWT02FPDHKFnGO9BLVMic7iam5icwktHrblfN0HcjGgRX7WP5XCxZeK3RUQqRkA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5f3a***\\ud83c\\udf52</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/r3Y5gOn4qzAPt3VXribqeudPcorkLkbpqAAorhMQxCDs5urOgzu39jSEeb5TnfCLFkOXfRulgxlg3FAfgI7nn9A/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u99a5***\\u5b87</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/FmwWpyD4ym5WTAm9K1pNnCTx0c1REJ5Tyo92HicDPgrX5p7iaINgQ9WAUSvKbnzUuY3HbHrgMnmsGm4gtxzSvAibA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u707f***\\u654f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erj7P7avBdOGwVUNxhtnTdvmdAmau6J2nJsINGu75NOicJKicm7pXGSAa5jvbEfGIKic4ibqWdLdBfB2g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u4e00***\\u5fc3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLWzTSxWrkico2Cmwk16aOiaYIAOPjnjpronCNGoAuLcGyqvtwHC741QZuN1P2eJJicB9d5LOctNtz6g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5b89***\\u5a1c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>1000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/MzoEFpic4kAWgRpaBHs5BGRf2gxwBvcROP0LKChAibHz6PsCMtbIJZDCfm6DZOO3415Tfc7UJqpIPK5cBtac3vPA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5f20***\\u5174</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqNVvyZ37hnesSia0tnyEo9ibTVPAIenWKc4rCNictoRdtJ0DRznDk5CzEmpjSLca4DMG4EZSE0VsLcA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\ud83d\\udd25***\\ud83d\\udd25</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>2000\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/ibL1icjcEDvSV65CcVEj1TtcoBo5upBrvfShqia3OkowhibJZuXBWyyYBIVAibEsvGbXrQ9cV3378lY8SJz6oGIQpaA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u60f3***\\u4e86</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"}],\"show_market_guide\":0,\"show_novice_desc\":\"\",\"show_novice_extract\":0,\"show_scroll_msg\":true,\"subject_info\":{\"_id\":\"183613481\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"833110360\",\"answer_name\":\"\\u5c0f\\u7f57\\u4f2f\\u7279\\u5510\\u5c3c\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/fdf2867ab2a878dc85d17b24a02989f2.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u5c0f\\u7f8a\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u61d2\\u7f8a\\u7f8a\"},\"time_limit\":0,\"total_game_count\":4},\"encrypt\":false,\"message\":\"\\u6210\\u529f\"}\n",
+        "charset": null,
+        "decoded": true
+      }
+    }
+  },
+  {
+    "status": "COMPLETE",
+    "method": "POST",
+    "protocolVersion": "HTTP/1.1",
+    "scheme": "http",
+    "host": "vcr.huixuanjiasu.com",
+    "actualPort": 80,
+    "path": "/game/get_question",
+    "query": "version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084996&device_serial=unknown&nonce_str=1a659b80-b03d-4cff-8910-ca474fbc9de7&box_pkg_name=com.guess.video&sign=KEacCx1D2AW-vYY33mymjg&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=1b7cf89da0bd434982ceedc9040f22f1&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi",
+    "tunnel": false,
+    "keptAlive": true,
+    "webSocket": false,
+    "remoteAddress": "vcr.huixuanjiasu.com/39.96.2.90",
+    "clientAddress": "/10.1.20.210",
+    "clientPort": 42400,
+    "times": {
+      "start": "2021-09-08T15:04:54.462+08:00",
+      "requestBegin": "2021-09-08T15:04:54.462+08:00",
+      "requestComplete": "2021-09-08T15:04:54.462+08:00",
+      "responseBegin": "2021-09-08T15:04:54.572+08:00",
+      "end": "2021-09-08T15:04:54.572+08:00"
+    },
+    "durations": {
+      "total": 110,
+      "dns": null,
+      "connect": null,
+      "ssl": null,
+      "request": 0,
+      "response": 0,
+      "latency": 110
+    },
+    "speeds": {
+      "overall": 35490,
+      "request": 0,
+      "response": 0
+    },
+    "totalSize": 3904,
+    "request": {
+      "sizes": {
+        "headers": 1064,
+        "body": 25
+      },
+      "mimeType": "application/x-www-form-urlencoded",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "POST /game/get_question?version_name=1.1.1.1&device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593&channel_name=oppo&et=1631084996&device_serial=unknown&nonce_str=1a659b80-b03d-4cff-8910-ca474fbc9de7&box_pkg_name=com.guess.video&sign=KEacCx1D2AW-vYY33mymjg&yid=306415552161_5733786105&ii=&user_id=306415552161&oaid=79F29051AA0944E2810FA5AB2F6DD649b87b829ffdf2a9bf8096bd5ed0cb0723&Latitude=&Longitude=&trace_id=1b7cf89da0bd434982ceedc9040f22f1&os_version=10&os_name=android&phone_model=PBEM00&phone_brand=OPPO&device_type=OPPO&session_id=f810d54a42114627a8b0510ee1c139c5&network_type=wifi HTTP/1.1",
+        "headers": [
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)"
+          },
+          {
+            "name": "Accept-Charset",
+            "value": "UTF-8"
+          },
+          {
+            "name": "Accept",
+            "value": "*/*"
+          },
+          {
+            "name": "Cookie",
+            "value": "yid=306415552161_5733786105;device_id=f9cc782e-52ca-3e6e-8bd6-bc2870a30593;madr=MDIwMDAwMDAwMDAw;aid=MjdiNDRhNzYyY2U4YTMzNw==;ii=;device_serial=unknown;wmr=QzIyRTI1NzhBMDdG"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          },
+          {
+            "name": "Content-Length",
+            "value": "25"
+          },
+          {
+            "name": "Host",
+            "value": "vcr.huixuanjiasu.com"
+          },
+          {
+            "name": "Accept-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "is_relive=0&question_id=0",
+        "charset": null,
+        "decoded": true
+      }
+    },
+    "response": {
+      "status": 200,
+      "sizes": {
+        "headers": 241,
+        "body": 2574
+      },
+      "mimeType": "application/json",
+      "charset": null,
+      "contentEncoding": "gzip",
+      "header": {
+        "firstLine": "HTTP/1.1 200 OK",
+        "headers": [
+          {
+            "name": "Date",
+            "value": "Wed, 08 Sep 2021 07:04:56 GMT"
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Transfer-Encoding",
+            "value": "chunked"
+          },
+          {
+            "name": "Vary",
+            "value": "Accept-Encoding"
+          },
+          {
+            "name": "Content-Encoding",
+            "value": "gzip"
+          },
+          {
+            "name": "Connection",
+            "value": "keep-alive"
+          }
+        ]
+      },
+      "body": {
+        "text": "{\"code\":1,\"data\":{\"all_stars\":0,\"can_luck\":0,\"can_luck_level\":5,\"continuous_win\":4,\"day_icon\":{\"bottom_desc\":\"4/100\",\"icon_status\":0},\"force_scroll\":{},\"game_level\":4,\"if_hard\":false,\"music_id\":\"30042661\",\"next_extract\":1,\"next_luck_level\":5,\"next_subject_info\":{\"_id\":\"250957591\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"570322260\",\"answer_name\":\"\\u61d2\\u7f8a\\u7f8a\"},{\"answer_id\":\"450554953\",\"answer_name\":\"\\u6c64\\u59c6\\u514b\\u9c81\\u65af\"},{\"answer_id\":\"420854871\",\"answer_name\":\"\\u5c3c\\u53e4\\u62c9\\u65af\\u51ef\\u5947\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/4c1e017ceda23670d431ec324baffa78.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u4eba\\u7269\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u6210\\u9f99\"},\"novice_extract\":0,\"novice_extract_num\":5,\"npc_double_time\":0,\"question_id\":1382830026,\"scroll_msg_list\":[{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/ejYCwJUWUp9ibDtzhH9Yic20bJKyyNKZoMUoTV6PNxuzm9iaEYn4xQY5hplps6Am6N83EbaWsWjxZVUbO7BeKslqg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5a77***\\u5b50</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Jp7LdHibIC3JfLEnq8twHn9EcRbB1IbGaoAluXQ2Xv4KCqaop87MMicoQuWZibUv4U8tWBjpC51LicRIic5kAB0Vuicw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5218***\\uff0c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJFXXO0F0LCD1Wt87fuI5IlfmHWp5h2dhZ3XL8Eo9Oh59WicpaXYqIVh7ISDo9lhqnT5iaM9VicorSjw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7b80***\\u5355</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/pxRkugrFcaNmjOA7zMkb82WL69SVCVvDy6gB3ibpEaeyVnmAdCSBicKKRiasaE08icTf28WqoRpOYmibAJ07HPc8k7w/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5e7f***\\u4e3b</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/OWzQPQoT4XdSwdicCib8Q9kMTEY2ibMwgIibESuw1DLIRdHAsX9pVheiaokuWOcIvEDAJ0wiaa5116CunZmAxKPEcZhw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7ae5***\\u6cef</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/bhe854X0b6ia3Q0PiawvUibibmtWqDMnr2p6HibFjkMKJyRwYQGjMEXCxkBKEZjfrwmmgJdt7Tf3xicm8Dicic4ba5KYqA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7fd4***\\u54e5</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>300\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/gX1xbQVsIcibyictunTWnl6xtFbD8zlA4E1GiakT27Jqas85Eg29SvseRUwvPfnlC295BlKG4lQnfRyICmwtWtJNw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u56db***\\u7eb3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/fCpsodawn4EutZ7hkDM57tO2hjniaFO6rzDoz9xcibiazIOqUfErHVbO4qp1lyBPJNE9DBbIMhibmVuN7ouvXTwmNg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>Q***e</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqJwjNEjwb7tGWPdFOWT02FPDHKFnGO9BLVMic7iam5icwktHrblfN0HcjGgRX7WP5XCxZeK3RUQqRkA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5f3a***\\ud83c\\udf52</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/KFZwWDbauYxfr5wfRE782gCCsNrFsexyJDgmmGnk8R98bjtvVZsmCjhsB39NZH0EQp6dyCW0scGtD2PBb8ibxHw/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u81e3***\\u670d</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/cFtcpjRVvcmgd2oxR6yHFEqJQM5EvR18NfnmGBhNibhjTKxuVCZL581FDlj3R4a9oE3rGDMmDuC4xshtFYmXFIg/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8001***\\u5934</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/9sgEUxsIRjjKLeZ9PMgIsEjJ4A5onia7LTavia2iavicEV899dTvNJqAxfJ3Iic9j6fVfn3LYq5hUIadJfibTXQDgL5g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u68a6***\\u4f7f</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>500\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Dic9D0DVl9FOmS77E7icqwFEtYGKezK9rCjhuiaKdndibL4RjvQlSXPJ7VSDQ1ibW3xGY6YumsMW0YjvnMXjQ9geJYA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u7ea2***\\u7470</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83epc6vGrBUdNZoiaLNPFB9QKgKvBV7dhAHc255DX78Gwia1xsNIup57kDia5jhUJF64sLJIXmkkbUhueQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u8fdf***\\u534e</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/HDFcwf5lyibXvajzO8Lqd5tj3amEPTGHbyG67or6wmreicLLicbWibv6rDmMC8lmuGo7RpqCiaSwCvTdjyaAfQNWcvQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>A***y</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/u3L60uE6cv67PgKeovZPzeWMiaH0QkxNp3sgGs0cAIHWkPatomknqHy42wyPc0Q9Hnk6qlyJIZhnlhbkCPO1hhQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u82ef***\\u82ef</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIcxz0quUK7Q0RhZ2NgYX32VKKiaLw7iaNbS1dPLuNIUky89lYiaicW0SMgEdo4CKf7Z61Eu1mmAq5KuA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5f00***\\u5fc3</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLWzTSxWrkico2Cmwk16aOiaYIAOPjnjpronCNGoAuLcGyqvtwHC741QZuN1P2eJJicB9d5LOctNtz6g/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u5b89***\\u5a1c</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/RRyBNDRiaQ1r8aQBNkWnEHnoHegj87McWgNibCD7LqlkyAwdWCYlenY2OprbzEUWn7yajRHX4kMMPEPWS8d7LfmA/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u674e***\\u7434</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"},{\"head\":\"http://thirdwx.qlogo.cn/mmopen/vi_32/wLqHR3eYZWoaeuo0PWrsTCPrV9FhNSmTCphVbsxfEIHXtcCSBQlPl2hJibeA2DhffDQG91Bl7ibOibNTHg5Waw8lQ/132\",\"msg\":\"<font color='#945104'>\\u606d\\u559c</font><font color='#FA2A00'>\\u77e5***\\u4e50</font><font color='#945104'>\\u6210\\u529f\\u63d0\\u73b0</font><font color='#FA2A00'>0.3\\u5143</font>\"}],\"show_market_guide\":0,\"show_novice_desc\":\"\",\"show_novice_extract\":0,\"show_scroll_msg\":true,\"subject_info\":{\"_id\":\"30042661\",\"content_type\":\"vcr\",\"error_answer\":[{\"answer_id\":\"64292895\",\"answer_name\":\"\\u65bd\\u74e6\\u8f9b\\u683c\"}],\"play_url\":\"http://vcr-static.huixuanjiasu.com/vcr_game/mp4/9421d5ca525fbe8b7a6188b21a467daf.mp4\",\"question\":\"\\u89c6\\u9891\\u4e2d\\u5bf9\\u94b1\\u6ca1\\u5174\\u8da3\\u7684\\u662f\\u8c01\\uff1f\",\"subject_name\":\"\\u9a6c\\u4e91\"},\"time_limit\":0,\"total_game_count\":5},\"encrypt\":false,\"message\":\"\\u6210\\u529f\"}\n",
+        "charset": null,
+        "decoded": true
+      }
+    }
+  }
+]
