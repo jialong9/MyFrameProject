@@ -13,6 +13,7 @@ import com.vcyber.myframe.bean.XingTuBean;
 import com.vcyber.myframe.databinding.ActivityMainBinding;
 import com.vcyber.myframe.mvp.presenter.MainPresenter;
 import com.vcyber.myframe.mvp.view.MainView;
+import com.vcyber.myframe.ui.activity.TestPullPushActivity;
 import com.vcyber.myframe.ui.activity.ViewpagerActivity;
 
 
@@ -42,11 +43,12 @@ public class MainActivity extends MvpActivity<MainPresenter, ActivityMainBinding
         binding.pagview.setPath("assets://test.pag");
         binding.pagview.setRepeatCount(1);
         binding.btTestFragment.setOnClickListener(v -> {
-            binding.pagview.play();
-            if (a <= 0) {
-                a++;
-                startActivity(new Intent(MainActivity.this, ViewpagerActivity.class));
-            }
+//            binding.pagview.play();
+//            if (a <= 0) {
+//                a++;
+//                startActivity(new Intent(MainActivity.this, ViewpagerActivity.class));
+//            }
+            startActivity(new Intent(this, TestPullPushActivity.class));
         });
 
     }

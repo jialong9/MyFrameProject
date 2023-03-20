@@ -1,5 +1,7 @@
 package com.vcyber.myframe.base;
 
+import com.vcyber.myframe.retorfit.RetryWithDelay;
+
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -37,8 +39,10 @@ public class BasePresenter<V> {
         if (mCompositeDisposable == null || mCompositeDisposable.isDisposed()) {
             mCompositeDisposable = new CompositeDisposable();
         }
-
-        observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(disposableObserver);
+        observable.retryWhen(new RetryWithDelay(5, 1000))
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(disposableObserver);
         mCompositeDisposable.add(disposableObserver);
     }
 }
