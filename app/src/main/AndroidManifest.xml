@@ -46,6 +46,9 @@
         <activity
             android:name=".ui.activity.ViewpagerActivity"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.TestDownTimeActivity"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".wxapi.WXEntryActivity"
