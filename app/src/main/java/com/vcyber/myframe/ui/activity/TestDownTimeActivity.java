@@ -47,6 +47,7 @@ public class TestDownTimeActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        adapter.cancelAllDown();
     }
 
     public static class DownAdapter extends BaseAdapter<Long> {
@@ -73,13 +74,11 @@ public class TestDownTimeActivity extends AppCompatActivity {
                 }
 
                 public void onFinish() {
-                    tvTime.setText("00:00");
+                    tvTime.setText("00:00:00");
                 }
             }.start();
 
             countDownMap.put(holder.hashCode(), countDownTimer);
-
-            Log.e("zjl==", data + "");
         }
 
         @Override
@@ -87,6 +86,19 @@ public class TestDownTimeActivity extends AppCompatActivity {
             super.onViewRecycled(holder);
             if (countDownMap != null) {
                 CountDownTimer cdt = countDownMap.get(holder.hashCode());
+                if (cdt != null) {
+                    cdt.cancel();
+                }
+            }
+        }
+        
+        public void cancelAllDown(){
+            if (countDownMap == null) {
+                return;
+            }
+            int size = countDownMap.size();
+            for (int i = 0; i < size; i++) {
+                CountDownTimer cdt = countDownMap.get(countDownMap.keyAt(i));
                 if (cdt != null) {
                     cdt.cancel();
                 }
